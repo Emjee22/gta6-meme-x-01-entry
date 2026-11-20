@@ -4,6 +4,9 @@
 // the output directory, where the gate reads it. Nothing it writes about
 // the post is judged; the house reads the post from X.
 //
+// The copy is byte for byte and the program does no other I/O, so two
+// runs from any working directory write identical output.
+//
 // Run it the way the grader does:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
